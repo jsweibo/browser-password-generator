@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Password Generator",
+  "description": "It can generate a unique password based on some information you provide",
+  "version": "1.0.0",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "background": {
+    "scripts": ["background_script.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Password Generator"
+  },
+  "permissions": ["contextMenus", "activeTab"]
+}
